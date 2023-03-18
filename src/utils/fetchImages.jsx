@@ -1,5 +1,8 @@
 import axios from 'axios';
 
+// This module exports a function that makes an API call to Flickr to search for images based on a search term and page number.
+// It uses the Flickr API key provided in the .env file and returns a Promise that resolves with the response data or rejects with an error message.
+
 const FLICKR_API_KEY = '5993c3195d235237e96a644eb1f75c2b';
 
 export async function fetchImages(searchImage, page = 1) {
@@ -19,5 +22,6 @@ export async function fetchImages(searchImage, page = 1) {
     return response.data.photos;
   } catch (error) {
     console.error(error);
+    throw new Error('Something went wrong. Please try again after some time...');
   }
 }

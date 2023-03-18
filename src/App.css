@@ -1,3 +1,6 @@
+/* This file contains CSS styles for the App component and its child components.
+   It includes styles for the search bar, image grid, pagination, and modal dialog. */
+
 .App {
   display: flex;
   flex-direction: column;
@@ -76,6 +79,15 @@
   color: #6c757d;
   font-size: 24px;
   font-weight: 300;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #fdd;
 }
 
 .pagination-container {
