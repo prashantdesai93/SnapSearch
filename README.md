@@ -4,6 +4,12 @@ SnapSearch is a straightforward and user-friendly image search tool created with
 
 This app uses photos search API from flickr : https://www.flickr.com/services/api/flickr.photos.search.html
 
+
+
+https://user-images.githubusercontent.com/39637879/226079481-72e1f9ae-39ea-4e19-83e2-273e7d19d6af.mov
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
